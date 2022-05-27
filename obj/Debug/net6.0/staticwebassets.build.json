@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8UWC4SsJJepD4kCBt3v6Nzddmw8hN9CMvgBYcuIbyMw=",
+  "Source": "ChedzaApp.api",
+  "BasePath": "_content/ChedzaApp.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
