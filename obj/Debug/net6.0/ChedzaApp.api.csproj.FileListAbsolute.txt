@@ -267,3 +267,13 @@ C:\users\eric\desktop\.netcore6projects\ChedzaApp\chedzaapp.api\obj\Debug\net6.0
 C:\users\eric\desktop\.netcore6projects\ChedzaApp\chedzaapp.api\obj\Debug\net6.0\ChedzaApp.api.pdb
 C:\users\eric\desktop\.netcore6projects\ChedzaApp\chedzaapp.api\obj\Debug\net6.0\ChedzaApp.api.genruntimeconfig.cache
 C:\users\eric\desktop\.netcore6projects\ChedzaApp\chedzaapp.api\obj\Debug\net6.0\ref\ChedzaApp.api.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\users\eric\desktop\.netcore6projects\chedzaapp\chedzaapp.api\bin\Debug\net6.0\Serilog.Sinks.File.dll

@@ -1,8 +1,25 @@
 using Microsoft.OpenApi.Models;
+using Serilog;
+//using Serilog.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//serilog method 1
+var logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext() 
+    .CreateLogger();
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger); 
+//Serilog method 2
+/*Log.Logger = new LoggerConfiguration()
+    .WriteTo.File(
+        path: "../logs/webapi-.log",
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} {CorrelationId} [{Level: u3}] {Username} {Message:lj} {NewLine} {Exception}",
+        rollingInterval: RollingInterval.Day,
+        restrictedToMinimumLevel: LogEventLevel.Information
+    ).CreateLogger();*/
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -13,7 +30,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "ChedzaApp Api",
         Version = "v1",
-        Description = "Service to support the SpyStore sample eCommercesite",
+        Description = "Service to support the ChedzaApp sample eCommercesite",
         TermsOfService = new Uri("https://example.com/terms"),
         License = new OpenApiLicense
         {
